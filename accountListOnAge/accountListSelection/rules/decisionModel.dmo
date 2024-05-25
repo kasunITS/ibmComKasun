@@ -22,6 +22,7 @@
                 <input bomType="java.lang.String" collection="false" name="gender"/>
                 <output bomType="java.lang.String" collection="true" name="accounts"/>
                 <rule defaultRule="false" href="node_1/accounts.dmt" kind="DecisionTable" name="accounts"/>
+                <rule defaultRule="true" href="node_1/output-default-setting.drl" kind="BusinessRule" name="output-default-setting"/>
             </ruleset>
         </extensionElements>
         <variable id="node_1_ii" name="accounts" typeRef="java.lang.String[]"/>
