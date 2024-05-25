@@ -45,31 +45,11 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["ARUNALU MINORS SAVINGS-USD, ARUNALU MINORS SAVINGS-GBP, ARUNALU MINORS SAVINGS-EUR"]]></Param>
+                                        <Param><![CDATA["ARUNALU MINORS SAVINGS-USD"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
-                        <Condition>
-                            <Expression>
-                                <Param><![CDATA[18]]></Param>
-                                <Param><![CDATA[50]]></Param>
-                            </Expression>
-                            <ActionSet>
-                                <Action DefId="A0">
-                                    <Expression>
-                                        <Param><![CDATA["SFNFDA Savings - USD, SFNFDA Savings - EUR, SFNFDA Savings - GBP"]]></Param>
-                                    </Expression>
-                                </Action>
-                            </ActionSet>
-                        </Condition>
-                    </Partition>
-                </Condition>
-                <Condition>
-                    <Expression>
-                        <Param><![CDATA["Female"]]></Param>
-                    </Expression>
-                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Param><![CDATA[0]]></Param>
@@ -78,7 +58,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["ARUNALU MINORS SAVINGS-USD, ARUNALU MINORS SAVINGS-GBP, ARUNALU MINORS SAVINGS-EUR"]]></Param>
+                                        <Param><![CDATA["ARUNALU MINORS SAVINGS-EUR"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -86,12 +66,25 @@
                         <Condition>
                             <Expression>
                                 <Param><![CDATA[18]]></Param>
-                                <Param><![CDATA[50]]></Param>
+                                <Param><![CDATA[40]]></Param>
                             </Expression>
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["Anagi Womens S/A - Passbook, Anagi Womens S/A - Statements"]]></Param>
+                                        <Param><![CDATA["SFNFDA Savings - USD"]]></Param>
+                                    </Expression>
+                                </Action>
+                            </ActionSet>
+                        </Condition>
+                        <Condition>
+                            <Expression>
+                                <Param><![CDATA[18]]></Param>
+                                <Param><![CDATA[40]]></Param>
+                            </Expression>
+                            <ActionSet>
+                                <Action DefId="A0">
+                                    <Expression>
+                                        <Param><![CDATA["SFNFDA Savings - GBP"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
