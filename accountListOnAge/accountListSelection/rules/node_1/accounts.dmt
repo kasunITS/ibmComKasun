@@ -112,8 +112,24 @@
                     </Partition>
                 </Condition>
                 <Condition>
-                    <Expression/>
-                    <ActionSet/>
+                    <Expression>
+                        <Param><![CDATA["Female"]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
+                        <Condition>
+                            <Expression>
+                                <Param><![CDATA[18]]></Param>
+                                <Param><![CDATA[40]]></Param>
+                            </Expression>
+                            <ActionSet>
+                                <Action DefId="A0">
+                                    <Expression>
+                                        <Param><![CDATA["Regular Savings"]]></Param>
+                                    </Expression>
+                                </Action>
+                            </ActionSet>
+                        </Condition>
+                    </Partition>
                 </Condition>
                 <Condition>
                     <Expression/>
